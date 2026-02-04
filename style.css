@@ -95,6 +95,7 @@
         height: 100vh;   
         display: grid;
         grid-template-columns: 1fr 1fr;
+        background-color: var(--left-bg);
         color: var(--body-text);
     }
     .left {
