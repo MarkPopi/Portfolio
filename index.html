@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="default-theme">
     <div class="left">
         <div class="container">
             <img src="./img/profilkep.png" alt="profile picture">
@@ -17,6 +17,17 @@
     </div>
     <div class="right">
         <div class="container">
+            <section id="theme">
+                <label for="theme-selector">Válassz színeket:</label>
+                <select name="theme-selector" id="theme-selector">
+                    <option value="default-theme">Alapértelmezett</option>
+                    <option value="vibrant-spring">Élénk tavasz</option>
+                    <option value="fresh-green">Friss zöld</option>
+                    <option value="harmony">Harmónia</option>
+                    <option value="vintage-charm">Vintage báj</option>
+                    <option value="figma">Figma</option>
+                </select>
+            </section>
             <section>
                 <h1 class="section-title">Rólam</h1>
                 <p>Ambiciózus junior front-end fejlesztő vagyok, precíz, letisztult megoldásokra törekszem. Gyorsan alkalmazkodom. Erősen analitikus, mély megértésre törekvő tanulási stílusom van, így összetett technológiákba is könnyen beleállok. A folyamatos fejlődést a mindennapi munkám természetes részének tekintem.</p>
@@ -58,5 +69,7 @@
             </section>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
